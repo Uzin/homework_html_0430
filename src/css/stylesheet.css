@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/*reset*/
+header,nav,person,title,contents_left,contents_center,contents_right,page,footer{margin:0;padding:0;}
+
+img{
+    width:100%;
+    height:100%;
+}
+
+body{
+    width:1080px;
+}
+
+.person{
+    width:100%;
+    height:100px;
+    padding: 0;
+    border: 0;
+    margin: 5px;
+}
+
+.p_picture{
+    width:90px;
+    height:110px; /*画像が枠に合わない*/
+    float:left;
+    border:1px solid gray;
+}
+
+.p_introduce{
+    float:left;
+    width:50%;
+    height:100px;
+    padding: 0;
+    border: 0;
+    margin: 5px;
+}
+
+.p_introduce:first-line{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.top_title{
+    width:100%;
+    height:20px;
+    padding:0;
+    border:0;
+    margin:5px;
+    text-align: center;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.all_contents{
+    width:100%;
+    height:400px;
+    padding: 0;
+    border: 0; 
+    margin: 5px;
+    display: table;
+    table-layout: fixed;
+}
+
+.content{
+    display: table-cell;
+    vertical-align: middle;
+    border: 8px solid white;
+    background-color:#f5f5f5;
+    font-size: 12px;
+    min-width: 250px;
+    vertical-align: top;
+}
+
+.c_pic{
+    height:230px;
+    margin-bottom: 10px;
+    text-align:center;
+    border: medium solid #ffc0cb;
+}
+
+.c_url{
+    margin-bottom: 10px;
+}
+
+.c_push{
+    margin-bottom: 10px;
+}
+
+.c_details{
+    margin-bottom: 10px;
+}
+
+
+.page{
+    width:100%;
+    height:20px;
+    padding: 0;
+    border: 0;
+    margin: 5px;
+    clear:both; /*フロート解除、もっといい方法があるか？*/
+    text-align: center;
+    font-size: 10px;
+}
+
+.page a{
+    padding:2px;
+    border:2px solid　#f0f8ff;
+    margin:2px;
+    background-color: #f0f8ff;
+    font-size:10px;
+}
